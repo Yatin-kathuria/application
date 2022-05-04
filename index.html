@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="/js/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <section id="main">
+                <h1 class="title">Filter By:</h1>
+                <div class="filter_container">
+                    <div class="color_container">
+                        <h6>Color</h6>
+                        <div id="color_pallete_container">
+                        </div>
+                    </div>
+                    <div class="input_container">
+                        <h6>title/subtitle</h6>
+                        <div id="filter_input_container">
+                            <input type="text" name="title" id="title_subtitle">
+                        </div>
+                    </div>
+                </div>
+                <div id="loader_container">
+                    <div id="loader" data-complete="0" data-space="5">
+                        <div class="fill"></div>
+                    </div>
+                    <div class="info">0/5</div>
+                </div>
+                <button class="btn" id="add_btn">Add Creative</button>
+                <div id="creative_list">
+                    <!-- <div class="box" data-color="">
+                        <h1>This is a Title</h1>
+                        <h1>This is a subtitle</h1>
+                    </div> -->
+                </div>
+            </section>
+            <aside id="creation_form">
+                <h1>Creative Creation</h1>
+                <div>
+                    <h4 class="title">title</h4>
+                    <input type="text" name="title" placeholder="This is a title" id="title">
+                </div>
+                <div>
+                    <h4 class="subtitle" >subtitle</h4>
+                    <input type="text" name="subtitle" id="subtitle">
+                </div>
+                <div class="color_container">
+                    <h6>background color</h6>
+                    <div id="color_pallete_container">
+
+                    </div>
+                </div>
+                <button id="form_button">Add</button>
+            </aside>
+        </div>
+
+
+    </body>
+</html>
